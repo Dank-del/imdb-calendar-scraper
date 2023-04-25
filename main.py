@@ -11,8 +11,8 @@ def index():
 def get_available_regions():
     return regions
 
-@app.get('/upcoming-movies')
-def get_upcoming_movies():
+@app.get('/calendar')
+def get_calendar_movies():
     if region := request.args.get('region'):
         if region not in regions:
             return {

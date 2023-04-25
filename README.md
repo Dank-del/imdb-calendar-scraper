@@ -1,6 +1,6 @@
-# IMDB Upcoming Scraper
+# IMDB Calendar Scraper
 
-> Scrapes upcoming movies based on their regions and exposes a flask REST API
+> Scrapes movie calendar based on their regions and exposes a flask REST API
 
 ## Made using
 
@@ -10,7 +10,7 @@
 
 ## Sample Response
 
-- `/upcoming-movies?region=IN`
+- `/calendar?region=IN`
 
 ```json
 
